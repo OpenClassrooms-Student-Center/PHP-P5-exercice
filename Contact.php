@@ -17,7 +17,6 @@ class Contact
      * @param string|null $name
      * @param string|null $email
      * @param string|null $telephone
-     * @return void
      */
     public function __construct(int $id = null, string $name = null, string $email = null, string $telephone = null)
     {
