@@ -9,7 +9,7 @@ class Contact
     private ?int $id;
     private ?string $name;
     private ?string $email;
-    private ?string  $telephone;
+    private ?string $telephone;
 
     /**
      * Constructeur de la classe Contact, tous les champs sont optionnels
@@ -43,8 +43,8 @@ class Contact
         return $contact;
     }
 
-    public function toString(): void {
-        echo $this->id . ", " . $this->name . ", " . $this->email . ", " . $this->telephone . "\n";
+    public function toString() {
+        return $this->id . ", " . $this->name . ", " . $this->email . ", " . $this->telephone . "\n";
     }
 
     // Liste des setters et getters

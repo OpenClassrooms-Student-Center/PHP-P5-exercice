@@ -21,13 +21,13 @@ class Command
      * @return void
      */
     public function help(): void {
-        echo "aide : affiche cette aide\n";
-        echo "lister : liste les contacts\n";
-        echo "créer [nom], [email], [telephone] : crée un contact\n";
-        echo "supprimer [id] : supprime un contact\n";
-        echo "quitter : quitte le programme\n";
+        echo "help : affiche cette aide\n";
+        echo "list : liste les contacts\n";
+        echo "create [nom], [email], [telephone] : crée un contact\n";
+        echo "delete [id] : supprime un contact\n";
+        echo "quit : quitte le programme\n";
         echo "\n";
-        echo "Attention à la syntaxe des commandes, les espaces et virgules sont importants.\n";
+        echo "Attention à la syntaxe des commandes, les espaces, virgules et majuscules sont importantes.\n";
     }
 
     /**
